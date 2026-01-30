@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "name": "TinyLlama-1.1B-Q4",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+      "format": "tinyllama",
+      "ctx": 2048,
+      "threads": 4
+    },
+    {
+      "name": "TinyLlama-1.1B-Q6",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/tinyllama-1.1b-chat-v1.0.Q6_K.gguf",
+      "format": "tinyllama",
+      "ctx": 2048,
+      "threads": 4
+    },
+    {
+      "name": "phi2_q4",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/phi-2.Q4_K_M.gguf",
+      "format": "phi2",
+      "ctx": 2048,
+      "threads": 4      
+    },
+    {
+      "name": "phi2_q5",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/phi-2.Q5_K_M.gguf",
+      "format": "phi2",
+      "ctx": 2048,
+      "threads": 4      
+    },
+    {
+      "name": "phi3_mini_q4",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/Phi-3-mini-4k-instruct-q4.gguf",
+      "format": "phi3",
+      "ctx": 4096,
+      "threads": 4      
+    },
+    {
+      "name": "StableLM-1.6B-Q4",
+      "path": "/home/sofia/voice_assistant/iot/models/slm_models/stablelm-1.6b-code_instructions_alpaca_style.Q4_K_M.gguf",
+      "format": "stablelm",
+      "ctx": 4096,
+      "threads": 4      
+    }
+  ]
+}

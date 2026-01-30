@@ -1,0 +1,9 @@
+{
+  "prompts": [
+    "Write a Python function to calculate the factorial of a number.",
+    "Tell me a short joke about robots.",
+    "Summarize the theory of relativity in 3 sentences.",
+    "What are the steps to make scrambled eggs?",
+    "Why is the sky blue?"
+  ]
+}
