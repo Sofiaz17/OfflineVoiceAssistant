@@ -1,0 +1,263 @@
+model,prompt,load_time_s,ram_idle_mb,ram_peak_mb,latency_s,tokens_gen,tps,output
+TinyLlama-1.1B-Q4,Prompt 1,0.10,735.3,742.2,15.41,250,16.22,"```python
+def factorial(n):
+    if n < 0:
+        raise ValueError(""n should be non-negative"")
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+
+Example usage:
+
+```python
+import pytest
+import factorial
+
+@pytest.mark.parametrize(""n"", [0, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+def test_factorial(n):
+    assert factorial(n) == n
+
+if __name__ == ""__main__"":
+    pytest.main()
+```
+
+This function uses an if statement to check if `n` is negative or greater than or equal to zero. If it is negative, an exception is raised and the function returns 1 instead. If it is zero, the function returns 1. Otherwise, it calculates the factorial using the formula n * (n-1) for each iteration and returns the final value."
+TinyLlama-1.1B-Q4,Prompt 2,0.10,735.3,742.2,4.33,66,15.24,"Sure, here's a short joke about robotics:
+
+Q: What's the difference between a robot and a dog?
+A: A dog has a tail, a robot doesn't.
+
+I hope that helps! Let me know if you have any more jokes to share."
+TinyLlama-1.1B-Q4,Prompt 3,0.10,735.3,742.2,4.21,59,14.01,"The theory of relativity explains how objects move and interact in the world, using the principle of equivalence between mass and inertia. This principle is demonstrated by the fact that two objects moving at different speeds will appear to be moving at the same speed, regardless of their relative motion."
+TinyLlama-1.1B-Q4,Prompt 4,0.10,735.3,742.2,15.08,224,14.85,"1. Heat up a non-stick skillet or a frying pan over medium-high heat.
+
+2. Once the pan is hot, add 1 tablespoon of olive oil or vegetable oil.
+
+3. Once the oil is hot, add a few spoonfuls of eggs to the pan, making sure they don't touch each other.
+
+4. Crack the eggs into the hot pan and immediately start to break them.
+
+5. Use a spatula or your fingertips to move the eggs around the pan, breaking them apart and cooking them evenly.
+
+6. Once the eggs are cooked to your liking, transfer them to a plate and season with salt and pepper.
+
+7. Serve the eggs immediately with toast or a side of bacon.
+
+Note: You can also use a toaster or a toaster oven instead of a frying pan, but you'll need to add some oil to the pan to prevent sticking."
+TinyLlama-1.1B-Q4,Prompt 5,0.10,735.3,742.2,9.48,135,14.24,"The sky is blue because it is a color, and there are certain compounds in the earth's atmosphere that combine with oxygen (O2) and nitrogen (N2) to form the blue-colored light. The blue-colored light that we see in the sky is due to the presence of these compounds in the atmosphere. These compounds are called primary blue colors, and they are produced by the interaction of sunlight with these compounds in the atmosphere. The color of the sky changes with the time of day, with blue skies being seen in the morning and afternoon and red skies being seen during the nighttime."
+TinyLlama-1.1B-Q6,Prompt 1,10.04,961.2,967.4,11.61,111,9.56,"```python
+def factorial(num):
+    """"""
+    Calculate the factorial of a number using recursion.
+    """"""
+    if num == 0:
+        return 1
+    else:
+        return num * factorial(num-1)
+```
+
+To call the function, you can call it as follows:
+
+```python
+factorial_of_number = factorial(5)
+print(factorial_of_number)  # Output: 120
+```"
+TinyLlama-1.1B-Q6,Prompt 2,10.04,961.2,967.5,10.93,109,9.97,"Sure, here's a short joke about robotics:
+
+Two robots, A and B, are walking down the street when a car pulls out in front of them. Robot A stops, but robot B keeps walking, oblivious to the danger. A nearby passerby jokes, ""Hey, robot, where's your brain? You're just a machine!"" To which robot B replies, ""Hey, I'm not a robot! I have a brain too!"""
+TinyLlama-1.1B-Q6,Prompt 3,10.04,961.2,967.5,9.42,88,9.35,"The theory of relativity explains that the laws of physics are the same no matter the velocity of a particle, object, or event. This means that events that take place in one location at one time are perceived as happening in the same way, regardless of the location or velocity of the observer. It is a fundamental principle of physics that has revolutionized our understanding of the universe and allowed us to make significant scientific advancements."
+TinyLlama-1.1B-Q6,Prompt 4,10.04,961.2,967.5,22.55,227,10.07,"To make scrambled eggs, follow these steps:
+
+1. Heat a non-stick skillet over medium heat.
+2. Add a small amount of oil to the skillet, if needed.
+3. Crack the eggs into the skillet and use a spatula to gently separate the yolks from the whites.
+4. Cook the eggs on medium heat for about 5-6 minutes, or until the whites are cooked and the yolks are still firm but slightly soft.
+5. Use a spatula to gently scramble the eggs and continue cooking for another 1-2 minutes until fully cooked.
+6. Season with salt and pepper to taste.
+7. Serve the scrambled eggs hot, over your preferred toppings.
+
+Note: It's also possible to use a fork to scramble the eggs instead of using the spatula. If you prefer a creamier texture, you can also add some milk or cream to the skillet before adding the eggs."
+TinyLlama-1.1B-Q6,Prompt 5,10.04,961.2,967.5,13.27,132,9.95,"The sky blue color is caused by the sun's reflection on the Earth's atmosphere. The light from the sun passes through the atmosphere and bends downwards, forming a spectrum of colors from red to violet. The light then reflects off the Earth's surface, creating the blue color that we see in the sky. The colors of the sky are also affected by the distance from the sun, the angle of the sun's rays, and the composition of the atmosphere. The sunlight also affects the colors of the sky through its spectrum of light, which creates different hues of blue over time and through the day."
+phi2_q4,Prompt 1,0.36,2364.2,2409.7,14.68,68,4.63,"def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
+# output: 120"
+phi2_q4,Prompt 2,0.36,2364.2,2409.7,6.07,26,4.28,"Why did the robot go to the doctor? 
+To get a check-up on its ""sensor"" abilities."
+phi2_q4,Prompt 3,0.36,2364.2,2409.7,17.60,83,4.72,"The theory of relativity, formulated by Albert Einstein, consists of two main parts - the special theory of relativity and the general theory of relativity. The special theory of relativity deals with objects moving at constant speeds, while the general theory of relativity extends it to include gravity. According to the theory, the laws of physics are the same for all observers, regardless of their motion, and the speed of light is constant."
+phi2_q4,Prompt 4,0.36,2364.2,2409.8,21.28,103,4.84,"1. Crack the eggs into a bowl and whisk them with a fork.
+2. Heat a non-stick skillet over medium heat and add a tablespoon of butter or oil.
+3. When the butter or oil is melted, pour in the whisked eggs and stir gently with a spatula.
+4. Cook until the eggs are set, but still moist and creamy, about 3 to 5 minutes.
+5. Season with salt and pepper to taste and serve with your favorite bread or toast."
+phi2_q4,Prompt 5,0.36,2364.2,2409.9,16.45,80,4.86,"The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight passes through the Earth's atmosphere, it encounters tiny particles such as nitrogen and oxygen molecules. These molecules scatter the sunlight in all directions, but they scatter shorter wavelengths of light more than longer wavelengths. Blue light has a shorter wavelength and is scattered more than other colors, which is why the sky appears blue to our eyes."
+phi2_q5,Prompt 1,23.59,2683.8,2687.4,10.62,42,3.95,"def factorial(n):
+  if n == 0 or n == 1:
+    return 1
+  else:
+    return n * factorial(n-1)"
+phi2_q5,Prompt 2,23.59,2683.8,2687.4,6.43,22,3.42,"Why did the robot go to the doctor? Because it was feeling a little bit ""machine-like""!"
+phi2_q5,Prompt 3,23.59,2683.8,2687.4,18.88,74,3.92,"The theory of relativity is a scientific theory that explains the laws of physics, specifically how objects move in relation to each other and how time and space are connected. It was first published by Albert Einstein in 1905 and has since been expanded upon and refined. The theory has had a significant impact on our understanding of the universe and has been confirmed through numerous experiments and observations."
+phi2_q5,Prompt 4,23.59,2683.8,2687.4,15.70,62,3.95,"1. Crack the eggs into a bowl and whisk them.
+2. Heat a non-stick pan over medium heat.
+3. Melt butter in the pan.
+4. Pour the beaten eggs into the pan.
+5. Stir the eggs continuously until they are cooked to your desired consistency."
+phi2_q5,Prompt 5,23.59,2683.8,2687.4,20.71,85,4.11,"The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight passes through the Earth's atmosphere, it encounters molecules such as nitrogen and oxygen. These molecules scatter the shorter wavelengths of light (blue and violet) more than the longer wavelengths (red and orange), causing the blue light to be scattered in all directions. As a result, our eyes perceive the scattered blue light, giving the sky its blue color."
+phi3_mini_q4,Prompt 1,9.32,3072.4,3877.1,72.47,256,3.53,"Here is a Python function to calculate the factorial of a number using a recursive approach. Recursion is a common way to solve factorial problems, but it's important to note that for very large numbers, an iterative approach would be more efficient due to the risk of hitting recursion depth limits.
+
+```python
+def factorial(n):
+    """"""
+    Calculate the factorial of a given number n using recursion.
+
+    Parameters:
+    n (int): A non-negative integer.
+
+    Returns:
+    int: The factorial of n.
+
+    Raises:
+    ValueError: If n is negative.
+    """"""
+    # Validate the input
+    if n < 0:
+        raise ValueError(""Factorial is not defined for negative numbers."")
+
+    # Base case: factorial of 0 is 1
+    if n == 0:
+        return 1
+    # Recursive case
+    else:
+        return n * factorial(n - 1)
+
+# Example usage
+if __name__ == ""__main__"":
+    num = 5
+    print(f""The factor"
+phi3_mini_q4,Prompt 2,9.32,3072.4,3877.2,19.10,65,3.40,"Why did the robot go to the gym?
+
+To get stronger and upgrade its firmware!
+
+
+This joke plays on the dual meaning of ""upgrade"" - in the context of both software (firmware) and physical strength, which is a humorous concept when applied to a robot."
+phi3_mini_q4,Prompt 3,9.32,3072.4,3877.6,53.85,188,3.49,"The theory of relativity, proposed by Albert Einstein, consists of two parts: special relativity and general relativity. Special relativity introduced the concept that the laws of physics are the same for all observers moving at constant speeds relative to one another, and it established the speed of light as an absolute constant in the universe. General relativity extended this to include gravity, describing it as the curvature of spacetime caused by mass and energy.
+
+
+Special relativity states that the laws of physics are the same for all observers in uniform motion relative to one another and that the speed of light in a vacuum is constant for all observers, regardless of their relative motion.
+
+
+General relativity is a theory of gravitation that posits the presence of a geometric property of spacetime, which is distorted by mass and energy, affecting the motion of objects and the flow of time."
+phi3_mini_q4,Prompt 4,9.32,3072.4,3877.8,73.60,256,3.48,"Here are the steps to make scrambled eggs:
+
+Ingredients:
+- 2-3 large eggs
+- Salt, to taste
+- Pepper, to taste
+- 1-2 tablespoons of butter or oil
+- Optional toppings: cheese, chopped vegetables, herbs
+
+1. Crack the eggs into a bowl: Start by cracking 2-3 large eggs into a microwave-safe bowl or a non-stick frying pan.
+
+2. Beat the eggs: Using a fork or a whisk, gently beat the eggs until the yolks and whites are fully combined. Add salt and pepper to taste, and mix well.
+
+3. Heat butter or oil: Place your non-stick frying pan or microwave-safe bowl on the stove, and add 1-2 tablespoons of butter or oil. Heat over medium heat until the butter has melted or the oil is hot.
+
+4. Add eggs to the pan: Pour the beaten eggs into the pan. If using a frying pan, leave the pan uncover"
+phi3_mini_q4,Prompt 5,9.32,3072.4,3878.1,40.67,147,3.61,"The sky appears blue to our eyes because of a phenomenon called Rayleigh scattering. As sunlight travels through Earth's atmosphere, it interacts with molecules like nitrogen and oxygen. These molecules scatter short-wavelength light, such as blue and violet, more efficiently than they do light with longer wavelengths, such as red and yellow.
+
+However, our eyes are more sensitive to blue light than violet light, and some of the violet light is absorbed by the atmosphere. Therefore, we perceive the sky as predominantly blue. Additionally, the presence of dust and pollutants in the atmosphere can also affect the color of the sky."
+StableLM-1.6B-Q4,Prompt 1,12.02,1831.2,1835.2,29.19,256,8.77,"index.py
+def factorial(n): 
+if n < 0: 
+return -1 
+if n == 0: 
+return 1 
+else: 
+return n * factorial(n-1)
+
+# Usage 
+print(factorial(3))
+# Output: 6
+# Explanation: 
+# 1st case: n = 3
+# 1st case: n = 3
+# n = 2 * 2 * 3 = 6
+
+# 2nd case: n = 2 * 2 * 3 = 6
+# n = 2 * 1 * 3 = 6
+# n = 2 * (1 * 2) = 6
+# n = 2 * (1 * 2) * 3 = 6
+# n = 2 * (1 * 2 * 3) = 6
+# n = 2 * (1 * 2 * 3) * 4 = 6
+# n = 2 * (1 * 2 * 3) * 4 * 5 = 6
+# n = 2 * (1 * 2 * 3) * 4 * 5 *"
+StableLM-1.6B-Q4,Prompt 2,12.02,1831.2,1835.2,0.57,0,0.00,
+StableLM-1.6B-Q4,Prompt 3,12.02,1831.2,1835.2,29.66,256,8.63,"#import sys
+#sys.path.insert(0, '..')
+
+import os
+import math
+import numpy as np
+import random
+
+from sklearn import svm
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import NearestNeighbors
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import SVC
+from sklearn.neighbors import NearestNeighbors
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+
+# load the data
+# Load the data and compute the PCA
+# Load the data and compute the PCA
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler
+
+# load the data
+dataset = pd"
+StableLM-1.6B-Q4,Prompt 4,12.02,1831.2,1835.2,29.42,256,8.70,"import numpy as np
+import matplotlib.pyplot as plt
+
+# Create a 2D array, with 5 rows and 5 columns
+x = np.random.rand(5,5)
+# Create the first row
+x[0,0] = 4
+# Create the last row
+x[-1,-1] = 5
+
+plt.imshow(x, cmap='gray')
+plt.xticks(x, list(range(5)), rotation=45)
+plt.yticks(x, list(range(5)), rotation=45)
+
+plt.show()  # Output:
+
+# Create a 2D array, with 5 rows and 5 columns
+x = np.random.rand(5,5)
+# Create the first row
+x[0,0] = 4
+# Create the last row
+x[-1,-1] an array. Here, the first row of the array is [4, 5, 6, 7, 8]. We can create an array in the following way: x[0,0] = 4, x[0,1] = 5, x[0,2] = 6, etc. Note that the array is not sorted. Here are the steps to create an array in numpy"
+StableLM-1.6B-Q4,Prompt 5,12.02,1831.2,1835.2,0.48,0,0.00,

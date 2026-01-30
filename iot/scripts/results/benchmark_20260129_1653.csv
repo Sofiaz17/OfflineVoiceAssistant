@@ -1,0 +1,35 @@
+model,prompt,load_time_s,ram_idle_mb,ram_peak_mb,latency_s,tokens_gen,tps,output
+TinyLlama-1.1B-Q4,Prompt 1,7.57,736.2,742.6,7.39,115,15.57,"A capacitor is a device that stores energy in its electric fields and is used in electronic circuits to regulate and control electrical current. It consists of a metal plate or a copper plate sandwiched between two electrolytes, which are charged with opposite charges. When an electric current flows through the copper plate, it causes the negative electrode to attract the positive electrode, which prevents the flow of current. This helps to regulate and control the amount of electrical current flowing through the circuit, which is essential for various electronic devices."
+TinyLlama-1.1B-Q4,Prompt 2,7.57,736.2,742.6,4.07,66,16.21,"Sure, here's a short joke about robotics:
+
+Q: What's the difference between a robot and a dog?
+A: A dog has a tail, a robot doesn't.
+
+I hope that helps! Let me know if you have any more jokes to share."
+TinyLlama-1.1B-Q4,Prompt 3,7.57,736.2,742.6,3.76,59,15.70,"The theory of relativity explains how objects move and interact in the world, using the principle of equivalence between mass and inertia. This principle is demonstrated by the fact that two objects moving at different speeds will appear to be moving at the same speed, regardless of their relative motion."
+TinyLlama-1.1B-Q4,Prompt 4,7.57,736.2,742.6,13.32,224,16.81,"1. Heat up a non-stick skillet or a frying pan over medium-high heat.
+
+2. Once the pan is hot, add 1 tablespoon of olive oil or vegetable oil.
+
+3. Once the oil is hot, add a few spoonfuls of eggs to the pan, making sure they don't touch each other.
+
+4. Crack the eggs into the hot pan and immediately start to break them.
+
+5. Use a spatula or your fingertips to move the eggs around the pan, breaking them apart and cooking them evenly.
+
+6. Once the eggs are cooked to your liking, transfer them to a plate and season with salt and pepper.
+
+7. Serve the eggs immediately with toast or a side of bacon.
+
+Note: You can also use a toaster or a toaster oven instead of a frying pan, but you'll need to add some oil to the pan to prevent sticking."
+TinyLlama-1.1B-Q4,Prompt 5,7.57,736.2,742.6,8.61,135,15.69,"The sky is blue because it is a color, and there are certain compounds in the earth's atmosphere that combine with oxygen (O2) and nitrogen (N2) to form the blue-colored light. The blue-colored light that we see in the sky is due to the presence of these compounds in the atmosphere. These compounds are called primary blue colors, and they are produced by the interaction of sunlight with these compounds in the atmosphere. The color of the sky changes with the time of day, with blue skies being seen in the morning and afternoon and red skies being seen during the nighttime."
+phi2_q4,Prompt 1,20.23,2413.4,2416.5,2.28,9,3.95,A capacitor stores and releases electric charge.
+phi2_q4,Prompt 2,20.23,2413.4,2416.5,4.64,26,5.61,"Why did the robot go to the doctor? 
+To get a check-up on its ""sensor"" abilities."
+phi2_q4,Prompt 3,20.23,2413.4,2416.7,15.19,83,5.46,"The theory of relativity, formulated by Albert Einstein, consists of two main parts - the special theory of relativity and the general theory of relativity. The special theory of relativity deals with objects moving at constant speeds, while the general theory of relativity extends it to include gravity. According to the theory, the laws of physics are the same for all observers, regardless of their motion, and the speed of light is constant."
+phi2_q4,Prompt 4,20.23,2413.4,2416.7,19.91,103,5.17,"1. Crack the eggs into a bowl and whisk them with a fork.
+2. Heat a non-stick skillet over medium heat and add a tablespoon of butter or oil.
+3. When the butter or oil is melted, pour in the whisked eggs and stir gently with a spatula.
+4. Cook until the eggs are set, but still moist and creamy, about 3 to 5 minutes.
+5. Season with salt and pepper to taste and serve with your favorite bread or toast."
+phi2_q4,Prompt 5,20.23,2413.4,2416.7,15.77,80,5.07,"The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight passes through the Earth's atmosphere, it encounters tiny particles such as nitrogen and oxygen molecules. These molecules scatter the sunlight in all directions, but they scatter shorter wavelengths of light more than longer wavelengths. Blue light has a shorter wavelength and is scattered more than other colors, which is why the sky appears blue to our eyes."
